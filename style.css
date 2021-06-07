@@ -4,10 +4,15 @@ body{
     font-family:"Noto Sans JP" , "sans-serif";
     margin: 0;
     min-width: 1076;
+    background-color: rgb(245, 239, 229);
 }
 
 .color-green{
-    color: rgb(136, 230, 225);
+    color: rgb(187, 231, 229);
+}
+
+.sub-title{
+    font-size: 32px;
 }
 
 .block-header{
@@ -23,3 +28,111 @@ body{
     letter-spacing: 1px;
 }
 
+
+
+.block-main{
+    text-align: center;
+    margin: 100px 0;
+}
+
+
+.item-list{
+    width: 100%;
+    min-width: 348px;
+    margin: 0 auto;
+}
+
+.item-list img{
+   width: 150px;
+   height: 150px;
+   object-fit: cover;
+   border-radius: 100%;
+}
+
+.item-list b{
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 20px 0px 30px 0px;
+}
+
+.item-list p{
+    font-size: 15px;
+    line-height: normal;
+    text-align: center;
+    margin: 30px;
+}
+
+.icon-list{
+    list-style: none;
+    margin: 30px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-list li{
+    float: left;
+}
+
+.icon-list{
+    width: 180px;
+    text-align: center;
+   
+}
+
+.icon-list img{
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+
+
+.box-works{
+    margin: 80px 0 0 ;
+}
+
+.works-list{
+    list-style: none;
+    width: 100%;
+    min-width: 1076px;
+    margin: 30px auto;
+    padding: 0;
+    text-align: left;
+}
+
+.works-list li{
+    display: block;
+    width: 250px;
+    height: 300px;
+    float: left;
+    padding-left: 130px;
+}
+
+.works-list li img{
+    width: 100%;
+    border: 1px solid#ccc;
+}
+
+.sub-title{
+   text-align: center;
+   padding: 50px;
+   padding-top: 60px;
+}
+
+
+
+.links{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.works-list h3{
+    text-align: center;
+}
+
+.block-footer{
+    text-align: center;
+    list-style: none;
+    clear: both;
+    padding-top: 100px;
+}
