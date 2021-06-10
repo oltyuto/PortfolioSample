@@ -23,5 +23,74 @@ body{
 }
 
 .color-green{
-    color: rgb(173, 245, 239);
+    color: rgb(64, 231, 217);
+}
+
+.sub-title{
+    font-size:32px;
+}
+
+
+
+/* プロフィール上部のスタイル */
+
+/* プロフィール　画像設定 */
+.item-list img{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+/* github twitter 画像設定  */
+.box-profile li img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+
+
+.block-main{
+    text-align: center;
+    margin: 100px 0;
+}
+
+.item-list{
+    width: 100%;
+    max-width: 348px;
+    margin: 0 auto;
+}
+
+.item-list b{
+    display: block;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 20px 0 30px;
+}
+
+.item-list p{
+    font-size:15px;
+    line-height: normal;
+    text-align:left; 
+}
+
+.icon-list{
+    list-style: none;
+    width: 100%;
+    max-width: 247px;
+    margin: 30px auto;
+    padding: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.icon-list li{
+    margin-right: 22px;
+}
+
+.icon-list li:last-child{
+    margin-right: 0;
 }
